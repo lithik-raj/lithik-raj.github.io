@@ -3,7 +3,74 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lithik Raj B.G — AI &amp; Data Science</title>
+<title>Lithik Raj B G — Python Developer | Software Engineering | AI &amp; Data Science</title>
+<meta name="description" content="Portfolio of Lithik Raj B G — Python Developer, Software Engineer, and AI &amp; Data Science specialist building Agentic AI systems, LangGraph multi-agent workflows, RAG, Flask web systems, and SQL databases.">
+<meta name="keywords" content="Lithik Raj, Lithik Raj B G, Python Developer, Software Engineer, AI Data Science, Agentic AI, Multi-Agent Systems, LangGraph, LangChain, MCP, Model Context Protocol, RAG, FAISS, Vector Databases, Flask, MySQL, PyTorch, scikit-learn, Docker, REST APIs, ATS Resume Screener, Bangalore">
+<meta name="author" content="Lithik Raj B G">
+<link rel="canonical" href="https://lithik-raj.github.io/">
+
+<!-- Open Graph / Meta -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://lithik-raj.github.io/">
+<meta property="og:title" content="Lithik Raj B G — Python Developer | Software Engineering | AI &amp; Data Science">
+<meta property="og:description" content="B.Tech Artificial Intelligence &amp; Data Science student (8.5 CGPA) with hands-on experience building Python applications, SQL-backed web systems, Agentic AI workflows, and ML/NLP systems.">
+<meta property="og:image" content="https://lithik-raj.github.io/">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Lithik Raj B G — Python Developer | Software Engineering | AI &amp; Data Science">
+<meta name="twitter:description" content="Python Developer and AI/ML Engineer with expertise in Agentic AI, LangGraph, Flask, MySQL, RAG, and PyTorch.">
+
+<!-- Structured Data (JSON-LD) for Search Engines & ATS Parsers -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Lithik Raj B G",
+  "jobTitle": "Python Developer & AI Software Engineer",
+  "url": "https://lithik-raj.github.io/",
+  "email": "lithikr2k@gmail.com",
+  "telephone": "+919943473343",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bangalore",
+    "addressCountry": "India"
+  },
+  "sameAs": [
+    "https://github.com/lithik-raj",
+    "https://www.linkedin.com/in/lithik-raj-b-g-74b234313"
+  ],
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Er. Perumal Manimekalai College of Engineering, Hosur"
+  },
+  "knowsAbout": [
+    "Python",
+    "Software Engineering",
+    "Agentic AI",
+    "Multi-Agent Systems",
+    "LangGraph",
+    "LangChain",
+    "Model Context Protocol (MCP)",
+    "RAG (Retrieval-Augmented Generation)",
+    "Vector Databases",
+    "FAISS",
+    "Flask",
+    "MySQL",
+    "REST APIs",
+    "Docker",
+    "Machine Learning",
+    "Natural Language Processing (NLP)",
+    "PyTorch",
+    "scikit-learn",
+    "Pandas",
+    "NumPy",
+    "spaCy",
+    "TF-IDF"
+  ]
+}
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -92,7 +159,7 @@
     font-family:var(--display); font-weight:700; font-size:clamp(38px,5.6vw,56px);
     line-height:1.05; margin:0 0 20px; letter-spacing:-0.01em; color:var(--text);
   }
-  .abstract{max-width:56ch; color:var(--text-soft); font-size:16px;}
+  .abstract{max-width:58ch; color:var(--text-soft); font-size:15.5px;}
   .hero-meta{display:flex; flex-wrap:wrap; gap:9px 20px; margin-top:26px; font-family:var(--mono); font-size:12.5px;}
   .hero-meta a{text-decoration:none; border-bottom:1px solid var(--line);}
   .hero-meta a:hover{border-color:var(--cyan); color:var(--cyan);}
@@ -133,7 +200,7 @@
   .edu-score{font-family:var(--mono); font-size:12.5px; color:var(--cyan); text-align:right;}
 
   /* ---------- projects ---------- */
-  .filter-row{display:flex; gap:8px; margin-bottom:24px; font-family:var(--mono); font-size:12px;}
+  .filter-row{display:flex; gap:8px; margin-bottom:24px; font-family:var(--mono); font-size:12px; flex-wrap:wrap;}
   .filter-row button{
     background:var(--panel); border:1px solid var(--line); color:var(--text-soft);
     padding:8px 14px; border-radius:20px; cursor:pointer; transition:all .15s ease;
@@ -153,15 +220,29 @@
   .tag-cat{font-family:var(--mono); font-size:10.5px; color:var(--text-soft); white-space:nowrap;}
 
   /* ---------- experience ---------- */
+  .exp-list{display:flex; flex-direction:column; gap:20px;}
   .exp-card{border:1px solid var(--line); background:var(--panel); padding:24px 26px; border-radius:10px; position:relative; overflow:hidden;}
   .exp-card::before{content:""; position:absolute; left:0; top:0; bottom:0; width:3px; background:linear-gradient(var(--cyan), var(--violet));}
-  .exp-card h3{font-family:var(--display); font-weight:600; font-size:18px; margin:0 0 4px; color:var(--text);}
-  .exp-role{font-family:var(--mono); font-size:12px; color:var(--cyan); margin-bottom:14px;}
-  .exp-card p{margin:0; color:var(--text-soft); font-size:14px;}
+  .exp-header{display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:8px; margin-bottom:4px;}
+  .exp-card h3{font-family:var(--display); font-weight:600; font-size:18px; margin:0; color:var(--text);}
+  .exp-dates{font-family:var(--mono); font-size:12.5px; color:var(--text-soft);}
+  .exp-role{font-family:var(--mono); font-size:12.5px; color:var(--cyan); margin-bottom:12px;}
+  .exp-card p{margin:0 0 8px; color:var(--text-soft); font-size:14px; line-height:1.6;}
+  .exp-card p:last-child{margin-bottom:0;}
+  .exp-card ul{margin:8px 0 0; padding-left:18px; color:var(--text-soft); font-size:14px;}
+  .exp-card li{margin-bottom:6px; line-height:1.55;}
+
+  /* ---------- certifications & achievements ---------- */
+  .cert-grid{display:grid; grid-template-columns:1fr 1fr; gap:18px;}
+  .cert-card{border:1px solid var(--line); background:var(--panel); padding:20px 22px; border-radius:10px; position:relative; overflow:hidden;}
+  .cert-card::before{content:""; position:absolute; left:0; top:0; bottom:0; width:3px; background:linear-gradient(var(--cyan), var(--violet));}
+  .cert-org{font-family:var(--mono); font-size:11.5px; color:var(--cyan); margin-bottom:6px; text-transform:uppercase; letter-spacing:0.04em;}
+  .cert-title{font-family:var(--display); font-weight:600; font-size:16px; color:var(--text); margin:0 0 8px;}
+  .cert-desc{font-size:13.5px; color:var(--text-soft); margin:0; line-height:1.55;}
 
   /* ---------- skills ---------- */
   .skills-grid{display:grid; grid-template-columns:1fr 1fr; gap:40px;}
-  .skill-group h4{font-family:var(--mono); font-size:11.5px; color:var(--text-soft); margin:0 0 16px; padding-bottom:8px; border-bottom:1px solid var(--line-soft);}
+  .skill-group h4{font-family:var(--mono); font-size:11.5px; color:var(--text-soft); margin:0 0 16px; padding-bottom:8px; border-bottom:1px solid var(--line-soft); text-transform:uppercase; letter-spacing:0.04em;}
   .skill-item{margin-bottom:14px;}
   .skill-item .lbl{display:flex; justify-content:space-between; font-size:13.5px; margin-bottom:6px; color:var(--text);}
   .bar-track{height:5px; background:var(--panel-2); border-radius:4px; overflow:hidden;}
@@ -196,6 +277,7 @@
     .hero{grid-template-columns:1fr; padding-top:36px; text-align:left;}
     .photo-frame{order:-1; width:160px; height:160px; justify-self:start;}
     .skills-grid{grid-template-columns:1fr;}
+    .cert-grid{grid-template-columns:1fr;}
     footer{grid-template-columns:1fr;}
     .strengths-list{grid-template-columns:1fr;}
     .proj-table thead{display:none;}
@@ -212,9 +294,10 @@
   <span class="toc-mark">LR</span>
   <nav>
     <a href="#work">work</a>
-    <a href="#education">education</a>
     <a href="#experience">experience</a>
+    <a href="#education">education</a>
     <a href="#skills">skills</a>
+    <a href="#certifications">certs</a>
     <a href="#contact">contact</a>
   </nav>
 </div>
@@ -226,10 +309,11 @@
       <ul class="toc-list">
         <li><a href="#top"><span class="num">00</span>intro</a></li>
         <li><a href="#work"><span class="num">01</span>projects</a></li>
-        <li><a href="#education"><span class="num">02</span>education</a></li>
-        <li><a href="#experience"><span class="num">03</span>experience</a></li>
+        <li><a href="#experience"><span class="num">02</span>experience</a></li>
+        <li><a href="#education"><span class="num">03</span>education</a></li>
         <li><a href="#skills"><span class="num">04</span>skills</a></li>
-        <li><a href="#contact"><span class="num">05</span>contact</a></li>
+        <li><a href="#certifications"><span class="num">05</span>certifications</a></li>
+        <li><a href="#contact"><span class="num">06</span>contact</a></li>
       </ul>
     </div>
     <div class="toc-foot">
@@ -241,16 +325,17 @@
   <main id="top">
     <section class="hero">
       <div>
-        <p class="eyebrow-role">B.Tech, Artificial Intelligence &amp; Data Science</p>
-        <h1 class="name">Lithik Raj B.G</h1>
+        <p class="eyebrow-role">Python Developer · Software Engineering · AI &amp; Data Science</p>
+        <h1 class="name">Lithik Raj B G</h1>
         <p class="abstract">
-          I build machine learning systems end to end — from attention-based generative models trained in PyTorch to Flask applications that put predictions in front of real users. Recent work centers on conditional GANs and NLP embedding pipelines, alongside deployed web tools for prediction and recommendation tasks.
+          B.Tech Artificial Intelligence &amp; Data Science student (8.5 CGPA) with hands-on experience building production Python applications, SQL-backed web systems, Agentic AI multi-agent workflows, and machine learning pipelines. Experienced in LangGraph, LangChain, Model Context Protocol (MCP), RAG, Flask, MySQL, REST APIs, and PyTorch. Seeking an entry-level software engineering opportunity to apply programming, database architecture, and AI problem-solving skills.
         </p>
         <div class="hero-meta">
           <a href="mailto:lithikr2k@gmail.com">lithikr2k@gmail.com</a>
           <a href="tel:+919943473343">+91 99434 73343</a>
           <a href="https://www.linkedin.com/in/lithik-raj-b-g-74b234313" target="_blank" rel="noopener">LinkedIn</a>
           <a href="https://github.com/lithik-raj" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://lithik-raj.github.io/" target="_blank" rel="noopener">Portfolio</a>
         </div>
       </div>
       <div class="photo-frame">
@@ -258,152 +343,254 @@
       </div>
     </section>
 
+    <!-- SECTION 01: PROJECTS -->
     <section id="work">
-      <div class="sec-head"><span class="idx">01</span><h2>Projects</h2></div>
-      <p class="sec-intro">Two threads run through the work below: generative and language modeling built for depth of understanding, and Flask applications built to actually ship.</p>
+      <div class="sec-head"><span class="idx">01</span><h2>Selected Projects</h2></div>
+      <p class="sec-intro">Production-grade systems covering supervisor-coordinated Agentic AI, ATS resume screening, full-stack analytics dashboards, deep learning generative pipelines, and applied machine learning tools.</p>
 
       <div class="filter-row" role="tablist" aria-label="Filter projects by category">
         <button class="active" data-filter="all" role="tab" aria-selected="true">all</button>
+        <button data-filter="agentic" role="tab" aria-selected="false">agentic ai &amp; llms</button>
         <button data-filter="dl" role="tab" aria-selected="false">deep learning &amp; nlp</button>
-        <button data-filter="web" role="tab" aria-selected="false">web &amp; applied ml</button>
+        <button data-filter="web" role="tab" aria-selected="false">web &amp; applied systems</button>
       </div>
 
       <table class="proj-table">
         <thead><tr><th style="width:34%">project</th><th style="width:36%">description</th><th>stack</th></tr></thead>
         <tbody id="projBody">
+          <tr data-cat="agentic">
+            <td><div class="proj-name">Enterprise Multi-Agent AI System (In Progress)</div><div class="tag-cat">agentic ai &amp; rag</div></td>
+            <td><div class="proj-desc">Developing a supervisor-coordinated multi-agent workflow for enterprise knowledge retrieval and task automation. Project components include skill extraction, TF-IDF-based scoring, FAISS vector retrieval, and recommendation workflows.</div></td>
+            <td class="stack">Agentic AI, LangGraph, LangChain, MCP, RAG, FAISS, Docker</td>
+          </tr>
+          <tr data-cat="web">
+            <td><div class="proj-name">AI-Powered Resume Screening &amp; Job Recommendation System</div><div class="tag-cat">ats &amp; nlp</div></td>
+            <td><div class="proj-desc">Built an ATS-style application to parse candidate resumes, extract structured skills, calculate multi-metric suitability scores, and recommend matched job roles. Integrated MySQL to store resume records, extracted skills, scores, and prediction results.</div></td>
+            <td class="stack">Python, Flask, MySQL, NLP, TF-IDF</td>
+          </tr>
+          <tr data-cat="web">
+            <td><div class="proj-name">Student Placement Analytics System</div><div class="tag-cat">full-stack analytics</div></td>
+            <td><div class="proj-desc">Developed a full-stack dashboard presenting student academic milestones, placement statistics, skill gap evaluations, and career readiness insights. Connected the web application to MySQL and visualised placement analytics using Chart.js.</div></td>
+            <td class="stack">Flask, MySQL, JavaScript, Chart.js</td>
+          </tr>
           <tr data-cat="dl">
-            <td><div class="proj-name">Text-to-Image Generation Pipeline</div><div class="tag-cat">deep learning</div></td>
-            <td><div class="proj-desc">End-to-end pipeline integrating text preprocessing, embeddings, and image generation.</div></td>
-            <td class="stack">PyTorch, Hugging Face Transformers</td>
+            <td><div class="proj-name">SAT Agro Sense AI (Team Hackathon Project)</div><div class="tag-cat">ml &amp; computer vision</div></td>
+            <td><div class="proj-desc">Contributed to an intelligent crop-monitoring and yield-prediction platform utilizing multispectral satellite data, soil metrics, and localized meteorological conditions. Built as part of Codienych 1.0.</div></td>
+            <td class="stack">Python, Machine Learning, Computer Vision, Satellite Data</td>
+          </tr>
+          <tr data-cat="dl">
+            <td><div class="proj-name">Text-to-Image Generation Pipeline</div><div class="tag-cat">generative ai</div></td>
+            <td><div class="proj-desc">End-to-end generative pipeline integrating text preprocessing, transformer-based text embeddings, and conditional image synthesis networks.</div></td>
+            <td class="stack">PyTorch, Hugging Face Transformers, Python</td>
           </tr>
           <tr data-cat="dl">
             <td><div class="proj-name">Self-Attention CGAN for Shape Generation</div><div class="tag-cat">deep learning</div></td>
-            <td><div class="proj-desc">Conditional GAN generating 128×128 shapes from category labels, with attention-map visualization.</div></td>
-            <td class="stack">PyTorch</td>
+            <td><div class="proj-desc">Conditional Generative Adversarial Network generating 128×128 synthetic shapes conditioned on class labels, featuring self-attention layers for global structural coherence.</div></td>
+            <td class="stack">PyTorch, GANs, Computer Vision</td>
           </tr>
           <tr data-cat="dl">
             <td><div class="proj-name">Conditional GAN (CGAN) for Shape Generation</div><div class="tag-cat">deep learning</div></td>
-            <td><div class="proj-desc">Baseline conditional GAN generating synthetic shape images from class labels.</div></td>
-            <td class="stack">PyTorch</td>
+            <td><div class="proj-desc">Baseline conditional GAN generating high-fidelity geometric shape images conditioned on category labels with discriminator stability enhancements.</div></td>
+            <td class="stack">PyTorch, Deep Learning</td>
           </tr>
           <tr data-cat="dl">
-            <td><div class="proj-name">Text Preprocessing &amp; Embeddings</div><div class="tag-cat">nlp</div></td>
-            <td><div class="proj-desc">NLP preprocessing pipeline producing text embeddings for downstream generation tasks.</div></td>
-            <td class="stack">Hugging Face Transformers</td>
+            <td><div class="proj-name">Text Preprocessing &amp; Embeddings Pipeline</div><div class="tag-cat">nlp</div></td>
+            <td><div class="proj-desc">NLP preprocessing and tokenization pipeline producing dense semantic vector embeddings for downstream retrieval and generative workflows.</div></td>
+            <td class="stack">Hugging Face Transformers, spaCy, Python</td>
           </tr>
-          <tr data-cat="dl">
-            <td><div class="proj-name">COCO 2017 &amp; Oxford-102 Flowers Exploration</div><div class="tag-cat">data analysis</div></td>
-            <td><div class="proj-desc">Exploratory analysis of classes, captions, resolutions, and image-text visualization.</div></td>
-            <td class="stack">Python, pandas</td>
-          </tr>
-          <tr data-cat="web">
-            <td><div class="proj-name">AI-Powered Resume Screening &amp; Job Recommendation</div><div class="tag-cat">web &amp; ml</div></td>
-            <td><div class="proj-desc">ATS-style scoring, skill extraction, and role prediction from candidate resumes.</div></td>
-            <td class="stack">Flask, MySQL, NLP</td>
+          <tr data-cat="agentic">
+            <td><div class="proj-name">Intel AI Assistant</div><div class="tag-cat">llm integration</div></td>
+            <td><div class="proj-desc">Interactive conversational assistant featuring real-time prompt streaming, multi-turn dialogue management, and LLM API orchestration with a web interface.</div></td>
+            <td class="stack">Flask, OpenRouter API, JavaScript, REST APIs</td>
           </tr>
           <tr data-cat="web">
-            <td><div class="proj-name">House Price Prediction System</div><div class="tag-cat">web &amp; ml</div></td>
-            <td><div class="proj-desc">Regression model served through a glassmorphism front end.</div></td>
-            <td class="stack">Flask, HTML/CSS/JS</td>
+            <td><div class="proj-name">NEXUS AI — Unified Employee Service Application</div><div class="tag-cat">hackathon project</div></td>
+            <td><div class="proj-desc">Collaborative team hackathon platform delivering unified enterprise service management, workflow routing, and intelligent ticketing built at KIT College, Coimbatore (TN Impact Hackathon).</div></td>
+            <td class="stack">Team Project, Python, AI Workflow</td>
           </tr>
           <tr data-cat="web">
-            <td><div class="proj-name">Crop Recommendation System</div><div class="tag-cat">web &amp; ml</div></td>
-            <td><div class="proj-desc">Recommends suitable crops from soil and climate parameters.</div></td>
-            <td class="stack">Flask, ML</td>
+            <td><div class="proj-name">House Price Prediction System</div><div class="tag-cat">applied ml</div></td>
+            <td><div class="proj-desc">Multi-feature regression engine served via Flask with an interactive glassmorphic UI for real estate price valuation.</div></td>
+            <td class="stack">Flask, scikit-learn, HTML/CSS/JS</td>
           </tr>
           <tr data-cat="web">
-            <td><div class="proj-name">Weather Status Prediction</div><div class="tag-cat">web &amp; ml</div></td>
-            <td><div class="proj-desc">Real-time weather prediction web application.</div></td>
-            <td class="stack">Flask, ML</td>
+            <td><div class="proj-name">Crop Recommendation System</div><div class="tag-cat">applied ml</div></td>
+            <td><div class="proj-desc">Data-driven agricultural decision system recommending optimal crops based on NPK soil chemistry, temperature, humidity, and rainfall factors.</div></td>
+            <td class="stack">Flask, scikit-learn, Pandas</td>
           </tr>
           <tr data-cat="web">
-            <td><div class="proj-name">Student Result Prediction System</div><div class="tag-cat">web &amp; ml</div></td>
-            <td><div class="proj-desc">Predicts academic performance from historical student data.</div></td>
-            <td class="stack">Flask, ML</td>
+            <td><div class="proj-name">Weather Status Prediction</div><div class="tag-cat">applied ml</div></td>
+            <td><div class="proj-desc">Real-time weather condition classification and status prediction web application trained on historical climate patterns.</div></td>
+            <td class="stack">Flask, Machine Learning, REST APIs</td>
           </tr>
           <tr data-cat="web">
-            <td><div class="proj-name">Intel AI Assistant</div><div class="tag-cat">web &amp; ml</div></td>
-            <td><div class="proj-desc">Conversational AI assistant with a web front end.</div></td>
-            <td class="stack">Flask, OpenRouter API</td>
-          </tr>
-          <tr data-cat="web">
-            <td><div class="proj-name">NEXUS AI — Unified Employee Service Application</div><div class="tag-cat">hackathon</div></td>
-            <td><div class="proj-desc">Team hackathon project built at KIT College, Coimbatore.</div></td>
-            <td class="stack">Team project</td>
+            <td><div class="proj-name">Student Result Prediction System</div><div class="tag-cat">applied ml</div></td>
+            <td><div class="proj-desc">Predictive analytics application forecasting semester academic performance and final results based on historical learning metrics.</div></td>
+            <td class="stack">Flask, Machine Learning, Pandas</td>
           </tr>
         </tbody>
       </table>
     </section>
 
+    <!-- SECTION 02: EXPERIENCE -->
+    <section id="experience">
+      <div class="sec-head"><span class="idx">02</span><h2>Internship Experience</h2></div>
+      <p class="sec-intro">Hands-on industry experience building, training, evaluating, and deploying end-to-end machine learning, data science, and web applications.</p>
+
+      <div class="exp-list">
+        <div class="exp-card">
+          <div class="exp-header">
+            <h3>Studix Solution</h3>
+            <span class="exp-dates">Dec 2025 – Jan 2026</span>
+          </div>
+          <div class="exp-role">AI &amp; Machine Learning Intern</div>
+          <p>Delivered five complete end-to-end machine learning projects, engineering data pipelines, model-training architectures, and Flask deployment workflows using scikit-learn, Pandas, and NumPy.</p>
+          <ul>
+            <li>Engineered robust preprocessing, exploratory data analysis, and feature selection pipelines across multi-dimensional tabular datasets.</li>
+            <li>Trained, tuned, and evaluated supervised regression and classification models for student performance analytics, weather status forecasting, crop suitability, and house valuation.</li>
+            <li>Containerized and deployed responsive web services with Flask, integrating REST endpoints for real-time model inference.</li>
+          </ul>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <h3>ElevanceSkills</h3>
+            <span class="exp-dates">Jun 2026 – Jul 2026</span>
+          </div>
+          <div class="exp-role">Data Science Intern</div>
+          <p>Completed intensive industry-standard data science training covering advanced statistics, feature engineering, and neural network architectures.</p>
+          <ul>
+            <li>Conducted deep-dive exploratory data analysis, statistical hypothesis testing, and multidimensional data visualization using Pandas and NumPy.</li>
+            <li>Designed, trained, and successfully submitted an advanced Generative AI text-to-image synthesis project for final evaluation.</li>
+            <li>Synthesized text embeddings with generative modeling techniques to translate semantic prompts into high-quality visual outputs.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 03: EDUCATION -->
     <section id="education">
-      <div class="sec-head"><span class="idx">02</span><h2>Education</h2></div>
+      <div class="sec-head"><span class="idx">03</span><h2>Education</h2></div>
       <div class="edu-row">
         <div>
           <div class="edu-title">B.Tech — Artificial Intelligence &amp; Data Science</div>
           <div class="edu-sub">Er. Perumal Manimekalai College of Engineering, Hosur</div>
         </div>
         <div style="text-align:right;">
-          <div class="edu-years">2024 – 2028</div>
-          <div class="edu-score">CGPA 8.5</div>
+          <div class="edu-years">2024 – 2028 (Expected)</div>
+          <div class="edu-score">CGPA: 8.5 / 10</div>
         </div>
       </div>
       <div class="edu-row">
         <div>
-          <div class="edu-title">Class XII — Biology / Mathematics</div>
+          <div class="edu-title">Class XII (Higher Secondary) &amp; Class X (SSLC)</div>
           <div class="edu-sub">SRV Boys Matriculation Higher Secondary School, Rasipuram</div>
         </div>
         <div style="text-align:right;">
-          <div class="edu-years">2022 – 2023</div>
-          <div class="edu-score">XII 78.16% · X 83.2%</div>
+          <div class="edu-years">2023 / 2021</div>
+          <div class="edu-score">Class XII: 78.16% · Class X: 83.2%</div>
         </div>
       </div>
     </section>
 
-    <section id="experience">
-      <div class="sec-head"><span class="idx">03</span><h2>Experience</h2></div>
-      <div class="exp-card">
-        <h3>Studix Solution</h3>
-        <div class="exp-role">AI &amp; Machine Learning Intern</div>
-        <p>Delivered the Student Performance, Weather, Crop, Chatbot, and House Price prediction projects end to end — from data preparation through model training to a deployed Flask front end.</p>
-      </div>
-    </section>
-
+    <!-- SECTION 04: SKILLS -->
     <section id="skills">
-      <div class="sec-head"><span class="idx">04</span><h2>Skills</h2></div>
+      <div class="sec-head"><span class="idx">04</span><h2>Technical Skills</h2></div>
+      <p class="sec-intro">Structured across software engineering, Agentic AI, modern LLM orchestration, machine learning algorithms, and database systems.</p>
+
       <div class="skills-grid">
         <div class="skill-group">
-          <h4>technical</h4>
-          <div class="skill-item"><div class="lbl"><span>Python — pandas, NumPy, scikit-learn, PyTorch</span></div><div class="bar-track"><div class="bar-fill" style="width:85%"></div></div></div>
-          <div class="skill-item"><div class="lbl"><span>Deep learning — GANs, attention mechanisms</span></div><div class="bar-track"><div class="bar-fill" style="width:75%"></div></div></div>
-          <div class="skill-item"><div class="lbl"><span>NLP — Hugging Face, embeddings</span></div><div class="bar-track"><div class="bar-fill" style="width:75%"></div></div></div>
-          <div class="skill-item"><div class="lbl"><span>Model deployment — Flask</span></div><div class="bar-track"><div class="bar-fill" style="width:85%"></div></div></div>
-          <div class="skill-item"><div class="lbl"><span>MySQL — database design &amp; queries</span></div><div class="bar-track"><div class="bar-fill" style="width:70%"></div></div></div>
-          <div class="skill-item"><div class="lbl"><span>HTML, CSS &amp; JavaScript</span></div><div class="bar-track"><div class="bar-fill" style="width:60%"></div></div></div>
-          <div class="skill-item"><div class="lbl"><span>Git &amp; GitHub</span></div><div class="bar-track"><div class="bar-fill" style="width:75%"></div></div></div>
+          <h4>programming &amp; software dev</h4>
+          <div class="skill-item"><div class="lbl"><span>Python — OOP, APIs, Automation</span><span>90%</span></div><div class="bar-track"><div class="bar-fill" style="width:90%"></div></div></div>
+          <div class="skill-item"><div class="lbl"><span>SQL &amp; MySQL — Database Design, Queries</span><span>85%</span></div><div class="bar-track"><div class="bar-fill" style="width:85%"></div></div></div>
+          <div class="skill-item"><div class="lbl"><span>Backend — Flask, REST APIs, Integration</span><span>85%</span></div><div class="bar-track"><div class="bar-fill" style="width:85%"></div></div></div>
+          <div class="skill-item"><div class="lbl"><span>DevOps &amp; Tools — Git, GitHub, Docker</span><span>80%</span></div><div class="bar-track"><div class="bar-fill" style="width:80%"></div></div></div>
+          <div class="skill-item"><div class="lbl"><span>Frontend — HTML5, CSS3, JavaScript (basic), Chart.js</span><span>75%</span></div><div class="bar-track"><div class="bar-fill" style="width:75%"></div></div></div>
+          <div class="skill-item"><div class="lbl"><span>Cloud Computing Basics</span><span>70%</span></div><div class="bar-track"><div class="bar-fill" style="width:70%"></div></div></div>
         </div>
+
         <div class="skill-group">
-          <h4>strengths &amp; languages</h4>
+          <h4>agentic ai &amp; llms</h4>
+          <div class="skill-item"><div class="lbl"><span>Agentic AI &amp; Multi-Agent Systems</span><span>85%</span></div><div class="bar-track"><div class="bar-fill" style="width:85%"></div></div></div>
+          <div class="skill-item"><div class="lbl"><span>LangGraph &amp; LangChain Orchestration</span><span>85%</span></div><div class="bar-track"><div class="bar-fill" style="width:85%"></div></div></div>
+          <div class="skill-item"><div class="lbl"><span>RAG &amp; Vector Databases (FAISS)</span><span>85%</span></div><div class="bar-track"><div class="bar-fill" style="width:85%"></div></div></div>
+          <div class="skill-item"><div class="lbl"><span>MCP (Model Context Protocol) &amp; Tool Calling</span><span>80%</span></div><div class="bar-track"><div class="bar-fill" style="width:80%"></div></div></div>
+          <div class="skill-item"><div class="lbl"><span>LLM Integration &amp; AI Evaluation</span><span>80%</span></div><div class="bar-track"><div class="bar-fill" style="width:80%"></div></div></div>
+          <div class="skill-item"><div class="lbl"><span>Responsible AI &amp; Prompt Defense</span><span>80%</span></div><div class="bar-track"><div class="bar-fill" style="width:80%"></div></div></div>
+        </div>
+
+        <div class="skill-group">
+          <h4>ai, ml &amp; data science</h4>
+          <div class="skill-item"><div class="lbl"><span>Machine Learning — scikit-learn</span><span>85%</span></div><div class="bar-track"><div class="bar-fill" style="width:85%"></div></div></div>
+          <div class="skill-item"><div class="lbl"><span>Deep Learning — PyTorch, Neural Nets</span><span>80%</span></div><div class="bar-track"><div class="bar-fill" style="width:80%"></div></div></div>
+          <div class="skill-item"><div class="lbl"><span>Data Processing — Pandas, NumPy</span><span>90%</span></div><div class="bar-track"><div class="bar-fill" style="width:90%"></div></div></div>
+          <div class="skill-item"><div class="lbl"><span>NLP — spaCy, TF-IDF, Embeddings</span><span>85%</span></div><div class="bar-track"><div class="bar-fill" style="width:85%"></div></div></div>
+          <div class="skill-item"><div class="lbl"><span>Generative AI — GANs, Text-to-Image</span><span>80%</span></div><div class="bar-track"><div class="bar-fill" style="width:80%"></div></div></div>
+          <div class="skill-item"><div class="lbl"><span>Computer Vision Basics</span><span>75%</span></div><div class="bar-track"><div class="bar-fill" style="width:75%"></div></div></div>
+        </div>
+
+        <div class="skill-group">
+          <h4>professional strengths &amp; languages</h4>
           <ul class="strengths-list">
-            <li>Willingness to learn</li>
-            <li>Hardworking &amp; dedicated</li>
-            <li>Disciplined &amp; responsible</li>
-            <li>Good communication</li>
+            <li>Enterprise Problem-Solving</li>
+            <li>Agentic Multi-Agent System Design</li>
+            <li>SQL Database Architecture &amp; Indexing</li>
+            <li>RESTful API Design &amp; Integration</li>
+            <li>Prompt Injection Defense &amp; Sanitization</li>
+            <li>Disciplined, Responsible &amp; Fast Learner</li>
+            <li>Collaborative Team Engineering</li>
+            <li>End-to-End Application Delivery</li>
           </ul>
-          <p class="lang-note">Languages — English, Tamil, Kannada, Telugu</p>
+          <p class="lang-note"><strong>Languages:</strong> English (Fluent), Tamil (Native), Kannada (Conversational), Telugu (Basic)</p>
         </div>
       </div>
     </section>
 
+    <!-- SECTION 05: CERTIFICATIONS & ACHIEVEMENTS -->
+    <section id="certifications">
+      <div class="sec-head"><span class="idx">05</span><h2>Certifications &amp; Achievements</h2></div>
+      <p class="sec-intro">Verified credentials in Generative AI, foundational data analytics, corporate consulting simulations, and competitive hackathon projects.</p>
+
+      <div class="cert-grid">
+        <div class="cert-card">
+          <div class="cert-org">IBM SkillsBuild</div>
+          <div class="cert-title">Generative AI &amp; AI Fundamentals Suite</div>
+          <p class="cert-desc">Certified in <em>Generative AI</em>, <em>AI Fundamentals</em>, and <em>AI Fundamentals: Language and Vision in AI</em>. Demonstrates foundational mastery in generative models, natural language processing, prompt patterns, and transformer principles.</p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-org">Cisco Networking Academy</div>
+          <div class="cert-title">Data Analytics Essentials</div>
+          <p class="cert-desc">Comprehensive certification covering end-to-end data pipelines, exploratory data analysis, data cleansing, statistical modeling, and actionable business intelligence reporting.</p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-org">Deloitte (Forage)</div>
+          <div class="cert-title">Data Analytics Job Simulation</div>
+          <p class="cert-desc">Completed practical corporate consulting simulation involving real-world client scenarios, structured data discovery, predictive pattern analysis, and executive dashboard presentations.</p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-org">Hackathons &amp; Competitions</div>
+          <div class="cert-title">TN Impact Hackathon &amp; Codienych 1.0</div>
+          <p class="cert-desc">Team participant at <strong>TN Impact Hackathon</strong> (NEXUS AI Unified Employee Service Platform at KIT College, Coimbatore) and <strong>Codienych 1.0</strong> (SAT Agro Sense AI satellite crop monitoring system).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 06: CONTACT FOOTER -->
     <footer id="contact">
       <div>
-        <h2>Get in touch</h2>
-        <p style="color:var(--text-soft); max-width:40ch;">Open to internship and entry-level roles in machine learning and applied AI.</p>
+        <h2>Get In Touch</h2>
+        <p style="color:var(--text-soft); max-width:44ch;">Seeking an entry-level software engineering, Python developer, or AI/ML opportunity where I can apply strong programming, database, and problem-solving skills.</p>
       </div>
       <ul class="contact-list">
         <li><span>email</span><a href="mailto:lithikr2k@gmail.com">lithikr2k@gmail.com</a></li>
         <li><span>phone</span><a href="tel:+919943473343">+91 99434 73343</a></li>
         <li><span>location</span>Bangalore, India</li>
+        <li><span>linkedin</span><a href="https://www.linkedin.com/in/lithik-raj-b-g-74b234313" target="_blank" rel="noopener">linkedin.com/in/lithik-raj-b-g-74b234313</a></li>
         <li><span>github</span><a href="https://github.com/lithik-raj" target="_blank" rel="noopener">github.com/lithik-raj</a></li>
+        <li><span>portfolio</span><a href="https://lithik-raj.github.io/" target="_blank" rel="noopener">lithik-raj.github.io</a></li>
       </ul>
     </footer>
   </main>
@@ -421,19 +608,19 @@
     });
   });
 
-  const links = document.querySelectorAll('.toc-list a');
+  const links = document.querySelectorAll('.toc-list a, .topbar nav a');
   const map = {};
-  links.forEach(l=> map[l.getAttribute('href').slice(1)] = l);
+  document.querySelectorAll('.toc-list a').forEach(l=> map[l.getAttribute('href').slice(1)] = l);
   const obs = new IntersectionObserver((entries)=>{
     entries.forEach(e=>{
       if(e.isIntersecting){
-        links.forEach(l=>l.classList.remove('active'));
+        document.querySelectorAll('.toc-list a').forEach(l=>l.classList.remove('active'));
         const link = map[e.target.id];
         if(link) link.classList.add('active');
       }
     });
-  }, {rootMargin: '-40% 0px -50% 0px'});
-  document.querySelectorAll('section[id]').forEach(s=>obs.observe(s));
+  }, {rootMargin: '-30% 0px -50% 0px'});
+  document.querySelectorAll('section[id], footer[id]').forEach(s=>obs.observe(s));
 </script>
 
 </body>
