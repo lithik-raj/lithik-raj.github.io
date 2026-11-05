@@ -2,13 +2,13 @@
 
 > **Python Developer | Software Engineering | AI & Data Science**  
 > Bangalore, India · [lithikr2k@gmail.com](mailto:lithikr2k@gmail.com) · +91 99434 73343  
-> [LinkedIn](https://www.linkedin.com/in/lithik-raj-b-g-74b234313) · [GitHub](https://github.com/lithik-raj) · [Live Portfolio](https://lithik-raj.github.io/)
+> [LinkedIn](https://www.linkedin.com/in/lithik-raj-b-g-74b234313) · [GitHub Profile](https://github.com/lithik-raj) · [Live Portfolio](https://lithik-raj.github.io/)
 
 ---
 
 ## 📌 Professional Summary
 
-B.Tech Artificial Intelligence & Data Science student with an **8.5 CGPA** and hands-on experience building production Python applications, SQL-backed web systems, Agentic AI multi-agent workflows, and machine learning pipelines. Familiar with Flask, MySQL, NLP, Machine Learning, REST APIs, and Git. Seeking an entry-level software engineering opportunity to apply programming, database architecture, and AI problem-solving skills.
+B.Tech Artificial Intelligence & Data Science student with an **8.5 CGPA** and hands-on experience building production Python applications, automated CI/CD pipelines, SQL-backed web systems, Agentic AI multi-agent workflows, and machine learning systems. Experienced in LangGraph, LangChain, Model Context Protocol (MCP), RAG, GitHub Actions, Docker, Flask, MySQL, REST APIs, and PyTorch. Seeking an entry-level software engineering opportunity to apply programming, CI/CD automation, database architecture, and AI problem-solving skills.
 
 ---
 
@@ -16,49 +16,63 @@ B.Tech Artificial Intelligence & Data Science student with an **8.5 CGPA** and h
 
 | Domain | Technologies & Frameworks |
 | :--- | :--- |
-| **Programming** | Python, SQL (MySQL), JavaScript (basic), HTML5, CSS3 |
-| **Software Development** | Flask, REST APIs, Database Integration, Git, GitHub, Docker, Cloud Computing |
-| **Agentic AI & LLMs** | Agentic AI, Multi-Agent Systems, LLM Integration, LangChain, LangGraph, Model Context Protocol (MCP), AI Evaluation, Responsible AI |
-| **AI & Data Science** | Machine Learning, NLP, Generative AI, RAG, Vector Databases, FAISS, scikit-learn, PyTorch, Pandas, NumPy, spaCy, TF-IDF |
+| **Programming** | Python (OOP, Async, Scripting), SQL (MySQL), JavaScript (basic), HTML5, CSS3 |
+| **CI/CD & DevOps** | **CI/CD Pipelines (GitHub Actions)**, Automated Testing (pytest, Flake8), Docker, Docker Compose, Git, GitHub |
+| **Software Development** | Flask, FastAPI, REST APIs, JSON APIs, Database Integration & Indexing, Cloud Computing |
+| **Agentic AI & LLMs** | Agentic AI, Multi-Agent Workflows, LLM Integration, LangChain, LangGraph, Model Context Protocol (MCP), AI Evaluation, Responsible AI |
+| **AI & Data Science** | Machine Learning, NLP, Generative AI, RAG, Vector Databases, FAISS, scikit-learn, PyTorch, Stable Diffusion, LoRA, Pandas, NumPy, spaCy, TF-IDF |
 | **Languages** | English (Fluent), Tamil (Native), Kannada (Conversational), Telugu (Basic) |
 
 ---
 
-## 🚀 Selected Projects
+## 🚀 Selected GitHub Projects
 
-### 1. Enterprise Multi-Agent AI System (In Progress)
-- **Stack:** `Agentic AI` · `LangGraph` · `LangChain` · `MCP` · `RAG` · `FAISS` · `Docker`
+All projects listed below are live, open-source repositories hosted on [GitHub @lithik-raj](https://github.com/lithik-raj):
+
+### 1. [Enterprise-Multi-Agent-AI-System](https://github.com/lithik-raj/Enterprise-Multi-Agent-AI-System)
+- **Stack:** `Agentic AI` · `LangGraph` · `LangChain` · `MCP` · `RAG` · `FAISS` · `Docker` · `CI/CD (GitHub Actions)`
 - Developing a supervisor-coordinated multi-agent workflow for enterprise knowledge retrieval and task automation.
-- Project components include automated skill extraction, TF-IDF-based scoring, FAISS dense vector retrieval, and recommendation workflows.
+- Features an automated **CI/CD pipeline (GitHub Actions)** with Flake8 linting, pytest automated unit & integration testing, and ML model artifact verification.
+- Components include automated skill extraction, TF-IDF-based scoring, FAISS dense vector retrieval, and recommendation workflows.
 
-### 2. AI-Powered Resume Screening & Job Recommendation System
-- **Stack:** `Python` · `Flask` · `MySQL` · `NLP` · `TF-IDF`
-- Built an ATS-style application to parse candidate resumes, extract structured skills, calculate multi-metric suitability scores, and recommend matched job roles.
+### 2. [AI-Resume-Scanner-and-Job-Prediction-System](https://github.com/lithik-raj/AI-Resume-Scanner-and-Job-Prediction-System)
+- **Stack:** `Python` · `Flask` · `MySQL` · `Machine Learning` · `NLP` · `TF-IDF`
+- Built an ATS-style candidate evaluation platform to parse resumes, extract structured skills, calculate multi-metric suitability scores, and predict matched job/internship roles.
 - Integrated MySQL database to persist candidate records, extracted competencies, match scores, and prediction outputs.
 
-### 3. Student Placement Analytics System
-- **Stack:** `Flask` · `MySQL` · `JavaScript` · `Chart.js`
-- Developed a full-stack dashboard presenting student academic milestones, placement statistics, skill gap assessments, and career readiness insights.
-- Connected the web application to MySQL and visualised placement analytics through dynamic, interactive Chart.js visualizations.
+### 3. [Student-Placement-Analytics-System](https://github.com/lithik-raj/Student-Placement-Analytics-System)
+- **Stack:** `Flask` · `MySQL` · `JavaScript` · `Chart.js` · `HTML/CSS`
+- Full-stack Student Placement Analytics System providing student-wise academic, placement, skill gap, and career readiness analytics.
+- Features an interactive dashboard with administrative authentication, student data management, and dynamic Chart.js visualizations.
 
-### 4. SAT Agro Sense AI (Team Hackathon Project)
-- **Stack:** `Python` · `Machine Learning` · `Computer Vision` · `Satellite Data`
-- Contributed to an intelligent crop-monitoring and yield-prediction platform utilizing multispectral satellite data, soil metrics, and weather patterns.
+### 4. [SatAgriSense-AI](https://github.com/lithik-raj/SatAgriSense-AI)
+- **Stack:** `Python` · `Machine Learning` · `Computer Vision` · `Satellite Data` · `NDVI` · `Flask`
+- AI-powered geospatial platform combining multispectral satellite imagery, NDVI analysis, crop recommendation, yield prediction, and environmental monitoring for precision agriculture.
 - Built and presented as part of **Codienych 1.0**.
 
-### 5. Generative AI & Deep Learning Pipelines
-- **Text-to-Image Generation Pipeline:** End-to-end generative pipeline integrating text preprocessing, transformer-based text embeddings, and conditional image synthesis networks (`PyTorch`, `Hugging Face Transformers`).
-- **Self-Attention CGAN for Shape Generation:** Conditional GAN generating 128×128 synthetic shapes conditioned on class labels, featuring self-attention layers for global coherence (`PyTorch`).
-- **Conditional GAN (CGAN):** Baseline conditional generative adversarial network producing targeted shape synthesis conditioned on categorical labels (`PyTorch`).
-- **Text Preprocessing & Embeddings:** NLP pipeline performing tokenization and vector embeddings for downstream generation tasks (`Hugging Face`, `spaCy`).
+### 5. [Resume_Fit_Scorer](https://github.com/lithik-raj/Resume_Fit_Scorer)
+- **Stack:** `Python` · `LLM Analysis` · `NLP` · `Prompt Engineering` · `JSON Schema`
+- AI-powered resume and job description fit scoring system using LLM analysis and configuration-driven weighted scoring across required technical skills, experience depth, and qualification alignment.
 
-### 6. Applied Machine Learning & Web Applications
-- **Intel AI Assistant:** Interactive conversational assistant with real-time prompt streaming powered by OpenRouter API (`Flask`, `JavaScript`).
-- **NEXUS AI (Unified Employee Service Application):** Team hackathon project delivering unified service management and automated ticketing built at KIT College, Coimbatore (**TN Impact Hackathon**).
-- **House Price Prediction System:** Multi-variable regression model served through a glassmorphism interface (`Flask`, `scikit-learn`).
-- **Crop Recommendation System:** Decision-support model recommending optimal crops based on soil nutrients (NPK) and climate parameters (`Flask`, `scikit-learn`).
-- **Weather Status Prediction:** Real-time weather forecasting web application (`Flask`, `ML`, `REST APIs`).
-- **Student Result Prediction:** Academic performance prediction application (`Flask`, `ML`, `Pandas`).
+### 6. [text-to-image-generation-pipeline](https://github.com/lithik-raj/text-to-image-generation-pipeline)
+- **Stack:** `PyTorch` · `Hugging Face Transformers` · `Python` · `Generative AI`
+- Comprehensive text-to-image generation pipeline integrating text preprocessing, transformer-based dense embeddings, and modern generative AI architectures.
+
+### 7. [Stable-Diffusion-Artwork-Fine-Tuning](https://github.com/lithik-raj/Stable-Diffusion-Artwork-Fine-Tuning)
+- **Stack:** `Stable Diffusion` · `LoRA` · `PyTorch` · `Generative AI` · `Hugging Face`
+- Fine-tuning Stable Diffusion on a custom artwork dataset using Low-Rank Adaptation (LoRA) for parameter-efficient, domain-specific artistic text-to-image synthesis.
+
+### 8. [Text_Preprocessing_and_Embeddings](https://github.com/lithik-raj/Text_Preprocessing_and_Embeddings)
+- **Stack:** `Hugging Face Transformers` · `spaCy` · `Python` · `NLP Embeddings`
+- Modular NLP preprocessing and tokenization framework using Hugging Face Transformers to clean text descriptions and produce high-dimensional semantic vector embeddings for downstream retrieval tasks.
+
+### 9. [Intel_AI_Assistant](https://github.com/lithik-raj/Intel_AI_Assistant)
+- **Stack:** `Flask` · `OpenRouter API` · `Python` · `REST APIs` · `JavaScript` · `CSS`
+- Interactive conversational AI assistant featuring real-time prompt streaming, multi-turn dialogue management, and LLM API orchestration with a responsive web front end.
+
+### 10. [House-Price-Prediction-ML](https://github.com/lithik-raj/House-Price-Prediction-ML)
+- **Stack:** `Flask` · `Machine Learning` · `scikit-learn` · `HTML` · `CSS` · `JavaScript`
+- AI-powered House Price Prediction System using supervised regression machine learning models, served via Flask with an interactive glassmorphism UI for intuitive real estate valuation.
 
 ---
 
