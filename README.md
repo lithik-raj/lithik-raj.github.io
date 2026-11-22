@@ -101,13 +101,26 @@ B.Tech AI & Data Science student (**8.5 CGPA**) with two internships and four co
 
 ---
 
+### 5. [Unified Employee Service Application (Nexus AI Workplace OS)](https://github.com/lithik-raj/Unified_employee_service_application)
+> 🛠️ **Tools:** React, Vite, Node.js, Express, FastAPI, Python, face-api.js, WebAuthn, Socket.io, Vercel  
+> 🌐 **Live Vercel Application:** [https://unified-employee-service-application-lithik-rajs-projects.vercel.app/](https://unified-employee-service-application-lithik-rajs-projects.vercel.app/)  
+> 🔗 **GitHub Repository:** [github.com/lithik-raj/Unified_employee_service_application](https://github.com/lithik-raj/Unified_employee_service_application)
+
+* Engineered for the **TN Impact Hackathon (Nexus)** as an intelligent, biometric-secured enterprise workspace OS.
+* Features **neural face biometric authentication** (ResNet-34 via `face-api.js`), **WebAuthn FIDO2** hardware security keys, real-time contextual **AI Copilot**, voice navigation assistant, and predictive ML for employee burnout and sentiment analysis.
+
+---
+
 ## 🏆 Hackathons (Completed)
 
 * **TN Impact Hackathon (Nexus) — Team: Unified Employee Service Application**  
-  * Built a secure-login employee portal connecting staff with HR for payslip access, ticket raising, pending salary tracking, and technical query resolution.  
+  * Built a secure-login enterprise employee portal connecting staff with HR for neural biometric attendance, payslip access, ticket raising, pending salary tracking, and AI query resolution.  
+  * 🌐 **Live Vercel Application:** [https://unified-employee-service-application-lithik-rajs-projects.vercel.app/](https://unified-employee-service-application-lithik-rajs-projects.vercel.app/)  
   * 🔗 **Repository:** [github.com/lithik-raj/Unified_employee_service_application](https://github.com/lithik-raj/Unified_employee_service_application)
 * **Codienych 1.0 — Individual: SAT Agro Sense AI**  
-  * Predicts the most profitable crop from land cultivation history; analyzes ocean salinity and pH, and identifies nearby factories affecting agricultural land.
+  * Predicts the most profitable crop from land cultivation history; analyzes ocean salinity and pH, and identifies nearby factories affecting agricultural land.  
+  * 🌐 **Live Vercel Application:** [https://satagrisense-ai.vercel.app/](https://satagrisense-ai.vercel.app/)  
+  * 🔗 **Repository:** [github.com/lithik-raj/SatAgriSense-AI](https://github.com/lithik-raj/SatAgriSense-AI)
 
 ---
 
@@ -126,6 +139,10 @@ B.Tech AI & Data Science student (**8.5 CGPA**) with two internships and four co
 ## 🌐 Live Deployments & Profiles
 
 * ⚡ **Vercel Projects Hub:** [https://vercel.com/lithik-rajs-projects](https://vercel.com/lithik-rajs-projects)
+* 🏢 **Unified Employee Service Application:** [https://unified-employee-service-application-lithik-rajs-projects.vercel.app/](https://unified-employee-service-application-lithik-rajs-projects.vercel.app/)
+* 🛰️ **SAT Agro Sense AI:** [https://satagrisense-ai.vercel.app/](https://satagrisense-ai.vercel.app/)
+* 🎓 **Student Placement Analytics:** [https://student-placement-analytics-system.vercel.app/](https://student-placement-analytics-system.vercel.app/)
+* 🤖 **Enterprise Multi-Agent AI System:** [https://enterprise-multi-agent-ai-system.vercel.app/](https://enterprise-multi-agent-ai-system.vercel.app/)
 * 🌐 **Live Portfolio:** [https://lithik-raj.github.io/](https://lithik-raj.github.io/)
 * 💼 **LinkedIn Profile:** [linkedin.com/in/lithik-raj-b-g-74b234313](https://www.linkedin.com/in/lithik-raj-b-g-74b234313)
 * 🐱 **GitHub Profile:** [github.com/lithik-raj](https://github.com/lithik-raj)
